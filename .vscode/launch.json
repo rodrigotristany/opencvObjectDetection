@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Debugger",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/simple-demo",
+            "args": ["/Users/rodrigotristany/Desktop/Personal/ProfilePicture.png"],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}
